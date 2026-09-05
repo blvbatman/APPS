@@ -1,4 +1,4 @@
-name: Auto Update TizenTube APK
+name: Auto Update vAPP APK
 
 on:
   schedule:
