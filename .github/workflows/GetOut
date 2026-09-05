@@ -1,0 +1,36 @@
+name: Auto Update GetOut APK
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  download-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download APK and Rename
+        run: |
+          URL="https://github.com/leeshin5757/getout/releases/download/v1/getout.apk"
+          FILENAME="GetOut-9609311.apk"
+          
+          curl -sSLk -f -o "$FILENAME" "$URL"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          FILENAME="GetOut-9609311.apk"
+          git add "$FILENAME"
+          
+          if git status --porcelain | grep -q .; then
+            git commit -m "Auto update SmartTube APK [$(date +'%Y-%m-%d')]"
+            git push
+          else
+            echo "File APK không có sự thay đổi mới."
+          fi
