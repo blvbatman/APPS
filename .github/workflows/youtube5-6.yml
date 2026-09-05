@@ -1,4 +1,4 @@
-name: Auto Update SmartTube APK
+name: Auto Update YoutubeTV APK
 
 on:
   schedule:
@@ -16,7 +16,7 @@ jobs:
       - name: Download APK and Rename
         run: |
           URL="https://r2-apk.daivietpda.com/payload/cobalt-smarttube-beta-android56.apk"
-          FILENAME="SmartTube For Android 5,6 -2648436.apk"
+          FILENAME="YouTubeTV For Android 5,6 -2648436.apk"
           
           curl -sSLk -f -o "$FILENAME" "$URL"
 
@@ -25,7 +25,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          FILENAME="SmartTube For Android 5,6 -2648436.apk"
+          FILENAME="YouTubeTV For Android 5,6 -2648436.apk"
           git add "$FILENAME"
           
           if git status --porcelain | grep -q .; then
