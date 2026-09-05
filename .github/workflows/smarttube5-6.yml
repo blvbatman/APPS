@@ -18,14 +18,15 @@ jobs:
           URL="https://r2-apk.daivietpda.com/payload/cobalt-smarttube-beta-android56.apk"
           FILENAME="SmartTube For Android 5,6 -2648436.apk"
           
-          curl -L -o "$FILENAME" "$URL"
+          curl -sSLk -f -o "$FILENAME" "$URL"
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add "SmartTube For Android 5-6 -2648436.apk"
+          FILENAME="SmartTube For Android 5,6 -2648436.apk"
+          git add "$FILENAME"
           
           if git status --porcelain | grep -q .; then
             git commit -m "Auto update SmartTube APK [$(date +'%Y-%m-%d')]"
