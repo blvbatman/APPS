@@ -15,7 +15,7 @@ jobs:
 
       - name: Download APK and Rename
         run: |
-          URL="https://download2330.mediafire.com/i627d2jz88dgrMlSw-gt1_NY1Pp4s87wRwNC6zj7ibNHMcPTM3wg0jt1wxaO5SsCVDSXgHRvLFHo9e6zMT6HLOy8JTZ0eCicZg1mzoGGfjxZkmcNlslS2lqW_gXI-44vxtBpbz0UJ06zA7gnOXQZq3lShTtTNJJ0SFftryz8LfAQQ0Y/jeec7t5kbwsqz9e/DLStore_v16.0.5.apk"
+          URL="https://download2330.mediafire.com/tdawordlunugtE-XbEzSG7rE8CKVUM_DIpcWBHKz-lZ4ieD5EHtEPKQR5FZ_0or124KDH0LGGtJZlv82c-3kKxcsrutkqRO5Q8MCR41_hJAZcAcJYG55t2Er52pCZ2Al_0QFKL7rccWB_wRNyG3oIqB3qlkort6FyRkoTaFp6k62GPI/jeec7t5kbwsqz9e/DLStore_v16.0.5.apk"
           FILENAME="DLStore-3199886.apk"
           
           curl -sSLk -f -o "$FILENAME" "$URL"
