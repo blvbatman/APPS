@@ -35,7 +35,7 @@
 
 
 <link href="//static.mediafire.com/css/mfv3_20261125204019.php?ver=ssl" rel="stylesheet" type="text/css"/>
-<link href="//static.mediafire.com/css/mfv4_20261125204019.php?ver=ssl&date=2026-11-26" rel="stylesheet" type="text/css"/>
+<link href="//static.mediafire.com/css/mfv4_20261125204019.php?ver=ssl&date=2026-11-27" rel="stylesheet" type="text/css"/>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,700,400,300' rel='stylesheet' type='text/css'/>
 <!--[if lte IE 8]>
 	<link rel="stylesheet" type="text/css" href="//static.mediafire.com/css/ie.css_20261125204019.php?ver=ssl" />
@@ -80,7 +80,7 @@ var Iu='File sharing and storage made simple';</script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag("js", new Date());
-            gtag("config", "UA-829541-1", {"dimension1":"unregistered","dimension7":"legacy","dimension8":"\/50\/100\/"});
+            gtag("config", "UA-829541-1", {"dimension1":"unregistered","dimension7":"legacy","dimension8":"\/100\/"});
         } catch(e) {}
     </script>
     
@@ -290,7 +290,7 @@ Log Out
 <script type="text/javascript">$('.floatingTab').click(function(e){if($(this).hasClass('open')){$(this).removeClass('open');$(this).parent().animate({right:-380},250,'easeOutExpo');}else{$(this).addClass('open');$(this).parent().animate({right:0},700,'easeOutExpo');}});$('.floatingTabsButtons .cancelBtn').click(function(e){$('.floatingTab').removeClass('open');$(this).parent().parent().animate({right:-380},250,'easeOutExpo');});</script>
 
 <script language="JavaScript" src="//static.mediafire.com/js/master_20261125204019.js" type="text/javascript"></script>
-<script language="JavaScript" type="text/JavaScript">bkA='ntam464mp46';identifier='';UserLogin='0';UserEmail='n/a';fu=0;lB=1;if(lB==1)
+<script language="JavaScript" type="text/JavaScript">bkA='ooa9aevg109';identifier='';UserLogin='0';UserEmail='n/a';fu=0;lB=1;if(lB==1)
 var bdq='https';else
 var bdq='http';var WRInitTime=(new Date()).getTime();var wM=0;var wL=0;var bLinkedFacebook=0;var bLinkedTwitter=0;var FBAppId='124578887583575';var FBAPIVersion='v24.0/';var yO=120000;var yP=120000;var mI;try{jQuery(function($){function aaP(abv){return abv.replace(/\W+/,"-").toLowerCase();}
 FHI_FadeTimer=null,FHI_FadeDelay=2000,FHI_DisableTimerCount=false,FHI_IconsWrapper=$("body.myfiles #subFooterWrap, body.filePreview #subFooterWrap, body.fileEdit #subFooterWrap");FHI_HideFooterHelpIcons=function(){if(!FHI_DisableTimerCount&&!$("#footer").hasClass("tabMF")&&!$("#footer").hasClass("tabMFhelp")){FHI_IconsWrapper.fadeOut("slow");}}
@@ -539,5 +539,5 @@ function acceptCookieFooter(){var el=document.getElementById('cookie-accept-foot
 function doesCookieExist(cookie){var match=document.cookie.match('(^|;)\\s*'+cookie+'=');if(match!==null){return true;}else{return false;}}
 if(!doesCookieExist('accept-cookies')){showCookieBanner();}</script>
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a6073bce28d0dab7',t:'MTc5NTY3ODcwNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a6073bce28d0dab7',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a60f75e8cc4bd6c7',t:'MTc5NTc2NDk3Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a60f75e8cc4bd6c7',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
